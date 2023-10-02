@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+    color: white;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.sedans {
+    padding: 37px;
+    background: rgb(213, 140, 4);
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.suvs {
+    padding: 37px;
+    background: rgb(34, 98, 106);
+}
+
+.luxury {
+    padding: 37px;
+    background: rgb(6, 64, 44);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.title {
+    margin-top: 25px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.description {
+    margin-top: 25px;
+    font-family: 'AR One Sans', sans-serif;
+    color: rgb(222, 222, 222);
+}
+button {
+    margin-top: 60px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background: white;
+    border: 0;
+    font-family: 'AR One Sans', sans-serif;
+    font-weight: bold;
+}
+#b1 {
+    color: rgb(213, 140, 4);
+}
+#b2 {
+    color: rgb(34, 98, 106);
+}
+#b3 {
+    color: rgb(6, 64, 44);
+}
